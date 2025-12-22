@@ -1,0 +1,16 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.datasets import load_iris
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomopsition import PCA
+iris=load_iris()
+x=iris.data  #features
+y=iris.target  #lables
+feature_names=iris.feature_names
+#convert to dataframe
+#optional
+df=pd.DataFrame(x,columns=feature_names)
+print(df.head())
+#standardise the dataset
+scaler=StandardScaler()
+x_scaled=scaler.fit_transform(x)
