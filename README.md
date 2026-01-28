@@ -3,7 +3,7 @@
 An end-to-end data-driven ad analytics and strategy recommendation platform built using Streamlit, Machine Learning, and Interactive Visual Analytics.
 The system enables marketers and analysts to analyze ad performance, identify audience behavior patterns, and generate optimized advertising strategies using predictive models.
 
-                                     🚀 Features
+  🚀 Features
 🔍 Interactive Analytics Dashboard
 Global filtering by location, device, and ad topic
 KPI tracking:
@@ -17,7 +17,7 @@ CTR vs Conversion by ad topic
 Engagement & content distribution (pie charts)
 Geographical CTR heatmap
 
-                         🧠 AI-Driven Strategy Recommendation
+🧠 AI-Driven Strategy Recommendation
 
 Predicts:
 Best performing device
@@ -29,13 +29,13 @@ Strategy insights generated using trained ML models
 Performance benchmarking against historical averages
 Confidence-based recommendations for decision support
 
-                          📈 Performance Scoring
+📈 Performance Scoring
 
 Cost Efficiency Score
 Engagement Score
 Visual confidence indicators for predictions
 
-                             🏗️ Tech Stack
+🏗️ Tech Stack
 Category	Tools
 Frontend	Streamlit
 Data Processing	Pandas, NumPy
@@ -60,16 +60,16 @@ ad-performance-intelligence/
 │
 ├── requirements.txt
 └── README.md
-              Installation & Setup
+ Installation & Setup
 1️⃣ Clone Repository
-**git clone https://github.com/your-username/ad-performance-intelligence.git
+                           git clone https://github.com/your-username/ad-performance-intelligence.git
 cd ad-performance-intelligence
-**
+
 2️⃣ Install Dependencies
-pip install -r requirements.txt
+                          pip install -r requirements.txt
 
 3️⃣ Run Application
-streamlit run app.py
+                         streamlit run app.py
 
 📊 Machine Learning Models
 
